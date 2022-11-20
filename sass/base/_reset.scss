@@ -16,3 +16,20 @@ ul {
 img {
     display: block;
 }
+
+.list {
+    list-style: none;
+}
+
+.link {
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    transition: color 250ms var(--baze-cubic);
+
+    &:hover,
+    &:focus {
+        color: var(--hover-color);
+    }
+
+}
