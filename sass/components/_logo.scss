@@ -32,3 +32,11 @@
     letter-spacing: var(--leter-spacingmain);
     color: var(--hero-title-color);
 }
+
+.street {
+    font-size: var(--fontsize-title);
+    letter-spacing: var(--leter-spacingmain);
+    color: var(--hero-title-color);
+    line-height: 1.71;
+    display: block;
+}
